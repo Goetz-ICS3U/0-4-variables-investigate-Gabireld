@@ -13,7 +13,7 @@ is_cool = True
 math_test_score = 67.7
 sister_name = "Ayeisha"
 teacher_name = "Gabagool"
-favourite_hobby="gooning"
+favourite_hobby="doomscrolling"
 school_team_on= "Jamaican Dogeball Hide and Seek"
 
 slope = 6
