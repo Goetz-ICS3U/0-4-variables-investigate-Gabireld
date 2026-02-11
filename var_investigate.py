@@ -1,36 +1,24 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22615286&assignment_repo_type=AssignmentRepo)
-# 0.4-variables-investigation
-## Startup
-
-1. Git clone the repository into Unit0, under Investigate
-2. Create a new file called vars_investigate.py
-3. Copy / paste the below code into that file
-4. Play around with the file
-
-## Instructions
-1. Change the **values** of all of the variable names so that the story reads a bit differently. DO NOT CHANGE ANYTHING IN THE PRINT FUNCTION YET
-2. Add 3 new variables in the Input section and then add those variables to the story in the print function!
-
-
-```python - copy code below
 """
-author:
-date:
+author: Gabriel Diab
+date: Tuesday, February 10th, 2026
 Investigating Variables
 """
 
 # Input
-name = "Mr. Nguyen"
-grade = 13
-favourite_exclamation = "bruh"
-least_favourite_colour = "yellow"
+name = "Jaquavius"
+grade = 15
+favourite_exclamation = "Ahlie?"
+least_favourite_colour = "Green"
 is_cool = True
-math_test_score = 90.15
-sister_name = None
+math_test_score = 67.7
+sister_name = "Ayeisha"
+teacher_name = "Gabagool"
+favourite_hobby="doomscrolling"
+school_team_on= "Jamaican Dogeball Hide and Seek"
 
-slope = 2
-y_intercept = 10
-x = 3
+slope = 6
+y_intercept = 7
+x = 67
 y = slope * x + y_intercept
 
 # Processing / Output
@@ -43,5 +31,7 @@ print(
     + f"so I needed to, on the next line, say that the value of y was {y}. "
     + f"I told my sister {sister_name} about this and she just laughed at me 🙄"
     + "Anyway, that's the story of my math test."
+    + f"But also, Coach {teacher_name} called me in to his office after school on the anouncements. It was scary."
+    + f"Coach {teacher_name} told me that he caught me {favourite_hobby} many times on school property during the school day."
+    + f"Coach told me if I kept {favourite_hobby}, then I would be kicked off the {school_team_on} team."
 )
-```
